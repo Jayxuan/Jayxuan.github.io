@@ -1,0 +1,20 @@
+Official source: Google Fonts repository (google/fonts)
+Downloaded: 2026-10-08
+
+Inter-Variable.ttf
+URL: https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter%5Bopsz%2Cwght%5D.ttf
+CSS font-family: Inter
+Axes: wght 100..900, opsz 14..32
+License: SIL Open Font License 1.1 (Inter-OFL.txt)
+License URL: https://raw.githubusercontent.com/google/fonts/main/ofl/inter/OFL.txt
+
+NotoSansSC-Variable.ttf
+URL: https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf
+CSS font-family: Noto Sans SC
+Axes: wght 100..900
+Unicode cmap coverage: 30,890 characters
+License: SIL Open Font License 1.1 (NotoSansSC-OFL.txt)
+License URL: https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/OFL.txt
+
+Both complete font files include requested weights 300, 400, 500, 700.
+Noto Sans SC is 17,772,300 bytes (< 20 MB); no fallback or subsetting used.
