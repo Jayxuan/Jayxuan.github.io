@@ -7,7 +7,7 @@ window.BLOG_ARTICLE_CONTENT=window.BLOG_ARTICLE_CONTENT||{};
 const wide=matchMedia('(min-width:1360px)');
 const tx=(zh,en)=>language==='en'?en:zh;
 const categoryName=key=>({research:tx('研究','Research'),weekly:tx('周报','Weekly'),essay:tx('随笔','Notes')})[key];
-const allPosts=()=>originals.map(p=>({...p,...(language==='en'?window.BLOG_TRANSLATIONS?.[p.slug]||{}:{})}));
+const allPosts=()=>originals.map(p=>({...p,...(language==='en'?window.BLOG_TRANSLATIONS?.[p.slug]||{}:{})})).sort((a,b)=>b.date.localeCompare(a.date));
 const nav=()=>'<a href="#/projects">Project</a><a href="#/research">Research</a><a href="#/blog">Blog</a><a href="#/about">About</a>';
 function languageLinks(){return '<nav class="language-switch site-language-switch" aria-label="'+tx('阅读语言','Reading language')+'"><a href="?lang=zh'+(location.hash||'#/')+'" data-language="zh" lang="zh-CN" '+(language==='zh'?'aria-current="page"':'')+'>中文</a><span aria-hidden="true">/</span><a href="?lang=en'+(location.hash||'#/')+'" data-language="en" lang="en" '+(language==='en'?'aria-current="page"':'')+'>English</a></nav>';}
 function footer(){return '<footer class="footer"><div class="social-links"><a href="#/" aria-label="'+tx('首页','Home')+'"><svg viewBox="0 0 24 24"><path d="m3 10 9-7 9 7M5 9v12h14V9M9 21v-8h6v8"/></svg></a>'+(config.email?'<a href="mailto:'+esc(config.email)+'" aria-label="Email"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg></a>':'')+(config.github?'<a href="'+esc(config.github)+'" target="_blank" rel="noopener noreferrer">GitHub</a>':'')+'</div><p>'+esc(config.footer)+'</p><a class="footer-link" href="#/about">'+tx('个人博客与研究笔记','Personal Blog & Research Notes')+'</a></footer>';}

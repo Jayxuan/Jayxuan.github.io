@@ -1,10 +1,11 @@
 {
-  "chinese": 32,
-  "english": 25,
-  "mediaLinked": 1936,
+  "chinese": 34,
+  "english": 27,
+  "mediaLinked": 2051,
   "quotesLinked": 2,
   "scriptsRemoved": 15,
-  "diagrams": 613,
-  "localArticleLinks": 448,
-  "missing": []
+  "diagrams": 635,
+  "localArticleLinks": 466,
+  "missing": [],
+  "syncedOn": "2026-10-22"
 }
