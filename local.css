@@ -5,3 +5,6 @@ body{background:#fff}button{font:inherit}button,a{-webkit-tap-highlight-color:tr
 @media(max-width:1200px){.wrapper-sidebar{display:block}.site-avatar-placeholder{font-size:54px}.wrapper-content .container{max-width:1000px}.site-stats{margin-top:14px}}
 @media(max-width:400px){.container{padding:0 16px}.rc-grid{grid-template-columns:minmax(0,1fr)}.navlist nav a{margin:0 7px}.rc-meta{font-size:12px}.language-switch a{margin:0 6px}#backToTop{right:1rem;bottom:1rem}.pagination>.prev a,.pagination>.next a{padding:8px 12px}}
 @media print{.wrapper-sidebar,.article-toc,.article-toc-trigger,.article-toc-overlay,.article-progress,#backToTop,.language-switch,.skip-link{display:none!important}.wrapper-content{float:none;width:100%}.article-reading-shell{display:block;padding:0}.article-page.has-article-toc .container{padding:0}.wrapper-footer-mobile{display:none!important}}
+
+/* Beginner paper-reading series */
+.rc-label-embodied-basics{color:#1b6ec2;background:#e7f5ff;}
