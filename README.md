@@ -29,8 +29,16 @@
 
 2026-10-22 发布前的 Hexo 完整版本保留在 [备份分支](https://github.com/Jayxuan/Jayxuan.github.io/tree/backup/hexo-before-blog-2026-10-22)。旧站文章和资源目录仍保留，历史文章地址继续可访问。
 
-## 零基础学具身智能
+## 零基础学具身智能与世界模型
 
-独立的 AI 辅助论文学习讲解专栏：`#/category/embodied-basics`。并非上述转载文章的一部分。第 1 课从 Brooks (1991) 与感知—行动闭环开始；文章包含论文来源、教学例子与阅读边界。
+独立的 AI 辅助论文学习专栏：`#/category/embodied-basics`，不属于上述 Tingde Liu 转载内容。
 
-后续发布：在 `articles/zh/` 新增正文注册文件，并在 `content.js` 增加唯一 slug、`category: "embodied-basics"`、递增的 `seriesOrder`、上海时区发布日期、中文标题/摘要/标签、阅读时长、`contentLanguage: "zh"`、相应 `contentFile`。正文键为 `zh/<slug>`。专栏目录自动按课次排列。不要为学习讲解填入旧转载格式的 `author` + `sourceUrl` 字段（会误标 CC BY 4.0）；应在正文明确论文作者、原文链接与 AI 辅助讲解身份。只有真实英文稿才添加 `translations.js` 条目。发布前检查语法、文件路径、slug 和课次重复，并核验原文；基于最新 master 原子提交，禁止 force push。发布后核验线上文件、专栏和文章路由。
+- `learning-path.js` 保存共同先修、VLA / 世界模型双分支、调研来源和规划条目。规划条目只有匹配 `content.js` 的已发布正文才显示“已发布”，不能把目录当作完成课程。
+- 新主线文章使用 `category: "embodied-basics"`、`seriesId: "embodied-main"`，唯一 slug、`seriesOrder` 与知识位置 `learningCode`。编号并不意味着读者可以跳过共同先修。
+- 旧有 11 篇全文和 URL 保留，索引标记 `seriesId: "embodied-classics"`、`seriesStatus: "supplementary"`。文章页明确显示经典补充档案；前后篇导航不混入新主线。
+- 新稿须具备元信息、先修说明、问题/洞察/方法/实验/批判/联系/实现/研究机会/总结及来源。没有真实运行时只能写实验方案或待验证，不能标“已复现”。
+- 原论文插图优先保存至 `assets/embodied-learning/`。每图具备图号、原文来源、作者信用、适用许可、修改说明、alt、高清链接和逐项读图指南。代码许可不自动覆盖论文图片；详见相关图片许可记录。
+- 正文仍按 `articles/zh/<slug>.js` 注册至 `window.BLOG_ARTICLE_CONTENT["zh/<slug>"]`。仅有真实英文稿时才添加翻译条目。不要给学习讲解填写旧转载格式的 `author` + `sourceUrl`（会误触发 CC BY 4.0 转载标签）。
+- 发布前检查 JavaScript 语法、slug/次序唯一性、正文/图片路径、许可、移动与桌面阅读；核验旧文原样保留。基于最新 master 原子提交，禁止 force push。发布后核对线上文件、专栏和文章路由。
+
+本次调研以可核验的 GitHub 官方项目、社区指南和课程要求为依据；无法核验的小红书帖子没有当作已读材料。日更自动化不由本次代码修改管理。
