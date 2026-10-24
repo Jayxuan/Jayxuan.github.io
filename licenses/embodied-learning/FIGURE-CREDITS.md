@@ -23,3 +23,15 @@
 
 - `vjepa2-fig2-video.png`：Figure 2 左面板，332×393；[原文件](https://arxiv.org/html/2506.09985v1/vjepa2-abstract-new.png)。原始字节未修改，仅网页缩放。
 - `vjepa2-fig2-action.png`：Figure 2 右面板，336×402；[原文件](https://arxiv.org/html/2506.09985v1/vjepa2-ac-abstract-new.png)。原始字节未修改，仅网页缩放。
+
+## 新增七个完整模块（2026-10-24）
+
+各项均为原论文图，而非 AI 生成图。完整版本、作者、许可依据、修改范围及文件校验记录见独立溯源：
+
+- C01：[自动微分综述 Figure 4](c01-ad.md)，JMLR 2018，CC BY 4.0。
+- A01：[robomimic Figure 2](a01-robomimic-fig2.md)，PMLR 164，CC BY 4.0。
+- A02：[Improved DDPM Figure 5](a02-iddpm-fig5.md)，PMLR 139，CC BY 4.0。它解释 Diffusion Policy 所采用的余弦噪声日程，**不是 ACT 或 Diffusion Policy 的架构图**；两篇策略论文的架构图在课程中链接原文，不复制权利未明确的图片。
+- A03：[OpenVLA Figure 2](a03-openvla-figure.md)，arXiv v3，CC BY 4.0；不冒充 π 系列图。
+- W01：[PlaNet Figure 2](w01-planet.md)，PMLR 97，CC BY 4.0。
+- W04：[UniSim Figure 2](w04-figure-provenance.md)，arXiv v3，CC BY 4.0。
+- X01：[RLiable Figure 2](x01-figure-provenance.md)，arXiv v4，CC BY 4.0。
