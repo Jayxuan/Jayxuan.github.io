@@ -919,7 +919,7 @@ window.BLOG_POSTS = [
     "excerpt": "沿原论文图3拆解后验、先验、RSSM与想象中的actor–critic，再审视跨域结果、消融、计算预算和真实机器人证据边界。",
     "category": "embodied-basics",
     "seriesId": "embodied-main",
-    "seriesOrder": 7,
+    "seriesOrder": 8,
     "learningCode": "W02",
     "date": "2026-10-24",
     "tags": [
@@ -939,7 +939,7 @@ window.BLOG_POSTS = [
     "excerpt": "结合原论文图2精读视频自监督、动作条件后训练与MPC，区分实验事实、局限及可检验的研究假设。",
     "category": "embodied-basics",
     "seriesId": "embodied-main",
-    "seriesOrder": 8,
+    "seriesOrder": 9,
     "learningCode": "W03",
     "date": "2026-10-24",
     "tags": [
@@ -986,7 +986,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-a01-imitation.js",
-    "seriesOrder": 3
+    "seriesOrder": 4
   },
   {
     "slug": "embodied-modern-a02-act-diffusion",
@@ -1004,7 +1004,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-a02-act-diffusion.js",
-    "seriesOrder": 4
+    "seriesOrder": 5
   },
   {
     "slug": "embodied-modern-a03-openvla-pi",
@@ -1023,7 +1023,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-a03-openvla-pi.js",
-    "seriesOrder": 5
+    "seriesOrder": 6
   },
   {
     "slug": "embodied-modern-w01-mdp-latents",
@@ -1042,7 +1042,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-w01-mdp-latents.js",
-    "seriesOrder": 6
+    "seriesOrder": 7
   },
   {
     "slug": "embodied-modern-w04-video-world-models",
@@ -1060,7 +1060,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-w04-video-world-models.js",
-    "seriesOrder": 9
+    "seriesOrder": 10
   },
   {
     "slug": "embodied-modern-x01-reproducible-evaluation",
@@ -1078,6 +1078,26 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-x01-reproducible-evaluation.js",
-    "seriesOrder": 10
+    "seriesOrder": 11
+  },
+  {
+    "slug": "embodied-modern-c03-clip-2021",
+    "title": "CLIP：从图文配对理解视觉语言对齐的基础",
+    "excerpt": "沿原论文 Figure 1 看懂双编码器、正负配对、余弦相似度与零样本提示；分清识别描述和机器人动作，用受控实验检查迁移与偏见边界。",
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "seriesOrder": 3,
+    "learningCode": "C03",
+    "date": "2026-10-25",
+    "tags": [
+      "CLIP",
+      "视觉语言",
+      "对比学习",
+      "具身基础",
+      "论文精读"
+    ],
+    "read": "20 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-c03-clip-2021.js"
   }
 ];
