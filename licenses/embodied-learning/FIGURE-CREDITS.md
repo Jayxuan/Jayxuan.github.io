@@ -35,3 +35,8 @@
 - W01：[PlaNet Figure 2](w01-planet.md)，PMLR 97，CC BY 4.0。
 - W04：[UniSim Figure 2](w04-figure-provenance.md)，arXiv v3，CC BY 4.0。
 - X01：[RLiable Figure 2](x01-figure-provenance.md)，arXiv v4，CC BY 4.0。
+
+
+## C04 · SigLIP (2026-10-26)
+
+Xiaohua Zhai, Basil Mustafa, Alexander Kolesnikov, Lucas Beyer, *Sigmoid Loss for Language Image Pre-Training*, ICCV 2023, arXiv v4, Figure 1 (PDF p.3), CC BY 4.0. Original PDF crop, not redrawn. Full source, license, crop and checksum: [per-figure record](siglip-2023-v4-fig1.md).

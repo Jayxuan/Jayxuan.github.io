@@ -919,7 +919,7 @@ window.BLOG_POSTS = [
     "excerpt": "沿原论文图3拆解后验、先验、RSSM与想象中的actor–critic，再审视跨域结果、消融、计算预算和真实机器人证据边界。",
     "category": "embodied-basics",
     "seriesId": "embodied-main",
-    "seriesOrder": 8,
+    "seriesOrder": 9,
     "learningCode": "W02",
     "date": "2026-10-24",
     "tags": [
@@ -939,7 +939,7 @@ window.BLOG_POSTS = [
     "excerpt": "结合原论文图2精读视频自监督、动作条件后训练与MPC，区分实验事实、局限及可检验的研究假设。",
     "category": "embodied-basics",
     "seriesId": "embodied-main",
-    "seriesOrder": 9,
+    "seriesOrder": 10,
     "learningCode": "W03",
     "date": "2026-10-24",
     "tags": [
@@ -986,7 +986,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-a01-imitation.js",
-    "seriesOrder": 4
+    "seriesOrder": 5
   },
   {
     "slug": "embodied-modern-a02-act-diffusion",
@@ -1004,7 +1004,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-a02-act-diffusion.js",
-    "seriesOrder": 5
+    "seriesOrder": 6
   },
   {
     "slug": "embodied-modern-a03-openvla-pi",
@@ -1023,7 +1023,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-a03-openvla-pi.js",
-    "seriesOrder": 6
+    "seriesOrder": 7
   },
   {
     "slug": "embodied-modern-w01-mdp-latents",
@@ -1042,7 +1042,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-w01-mdp-latents.js",
-    "seriesOrder": 7
+    "seriesOrder": 8
   },
   {
     "slug": "embodied-modern-w04-video-world-models",
@@ -1060,7 +1060,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-w04-video-world-models.js",
-    "seriesOrder": 10
+    "seriesOrder": 11
   },
   {
     "slug": "embodied-modern-x01-reproducible-evaluation",
@@ -1078,7 +1078,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-x01-reproducible-evaluation.js",
-    "seriesOrder": 11
+    "seriesOrder": 12
   },
   {
     "slug": "embodied-modern-c03-clip-2021",
@@ -1099,5 +1099,24 @@ window.BLOG_POSTS = [
     "read": "20 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-c03-clip-2021.js"
+  },
+  {
+    "slug": "embodied-modern-c04-siglip-2023",
+    "title": "C04｜SigLIP：不做全批竞赛，逐对判断图文是否匹配",
+    "excerpt": "沿 SigLIP 原图理解独立配对损失、负例不平衡与分块计算；核对批量和训练成本，再看它如何成为 OpenVLA 的视觉基础。",
+    "category": "embodied-basics",
+    "seriesOrder": 4,
+    "date": "2026-10-26",
+    "tags": [
+      "零基础学具身智能",
+      "SigLIP",
+      "视觉语言对齐",
+      "损失函数"
+    ],
+    "read": "22 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-c04-siglip-2023.js",
+    "seriesId": "embodied-main",
+    "learningCode": "C04"
   }
 ];
