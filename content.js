@@ -1,5 +1,22 @@
 window.BLOG_POSTS = [
   {
+    "slug": "learning-record-vit-2020",
+    "title": "ViT（Vision Transformer）学习记录：从 Patch 到图像分类",
+    "excerpt": "沿着 224×224 图像、196 个 Patch 与 197 个 Token，逐步理解线性投影、CLS、位置编码、Q/K/V、残差和分类头，结合原论文图与公式检查每一步的形状。",
+    "category": "learning-records",
+    "date": "2026-10-29",
+    "tags": [
+      "学习记录",
+      "ViT",
+      "Vision Transformer",
+      "图像分类",
+      "深度学习"
+    ],
+    "read": "25 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/learning-record-vit-2020.js"
+  },
+  {
     "slug": "embodied-basics-002-kalman-1960",
     "title": "第 2 课｜看见的就是真相吗？——观察、状态与估计",
     "excerpt": "借一辆在走廊行驶的小车，区分传感器读数、真实状态和状态估计；用“预测后再纠正”理解 Kalman 1960 的核心问题。",
