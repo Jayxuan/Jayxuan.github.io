@@ -919,7 +919,7 @@ window.BLOG_POSTS = [
     "excerpt": "沿原论文图3拆解后验、先验、RSSM与想象中的actor–critic，再审视跨域结果、消融、计算预算和真实机器人证据边界。",
     "category": "embodied-basics",
     "seriesId": "embodied-main",
-    "seriesOrder": 11,
+    "seriesOrder": 13,
     "learningCode": "W02",
     "date": "2026-10-24",
     "tags": [
@@ -939,7 +939,7 @@ window.BLOG_POSTS = [
     "excerpt": "结合原论文图2精读视频自监督、动作条件后训练与MPC，区分实验事实、局限及可检验的研究假设。",
     "category": "embodied-basics",
     "seriesId": "embodied-main",
-    "seriesOrder": 12,
+    "seriesOrder": 14,
     "learningCode": "W03",
     "date": "2026-10-24",
     "tags": [
@@ -986,7 +986,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-a01-imitation.js",
-    "seriesOrder": 7
+    "seriesOrder": 9
   },
   {
     "slug": "embodied-modern-a02-act-diffusion",
@@ -1004,7 +1004,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-a02-act-diffusion.js",
-    "seriesOrder": 8
+    "seriesOrder": 10
   },
   {
     "slug": "embodied-modern-a03-openvla-pi",
@@ -1023,7 +1023,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-a03-openvla-pi.js",
-    "seriesOrder": 9
+    "seriesOrder": 11
   },
   {
     "slug": "embodied-modern-w01-mdp-latents",
@@ -1042,7 +1042,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-w01-mdp-latents.js",
-    "seriesOrder": 10
+    "seriesOrder": 12
   },
   {
     "slug": "embodied-modern-w04-video-world-models",
@@ -1060,7 +1060,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-w04-video-world-models.js",
-    "seriesOrder": 13
+    "seriesOrder": 15
   },
   {
     "slug": "embodied-modern-x01-reproducible-evaluation",
@@ -1078,7 +1078,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-x01-reproducible-evaluation.js",
-    "seriesOrder": 14
+    "seriesOrder": 16
   },
   {
     "slug": "embodied-modern-c03-clip-2021",
@@ -1156,5 +1156,43 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-c06-mae-2021.js"
+  },
+  {
+    "slug": "embodied-modern-c07-ijepa-2023",
+    "title": "C07｜I-JEPA：不补像素，怎样预测图像里的意义？",
+    "excerpt": "从 MAE 的像素目标走向 I-JEPA 的表示预测，拆解多块掩码、EMA 教师与位置条件，核对论文和公开代码损失差异，并审查冻结评测、消融和预算。",
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "learningCode": "C07",
+    "date": "2026-10-29",
+    "tags": [
+      "零基础学具身智能",
+      "I-JEPA",
+      "表示预测",
+      "自监督学习"
+    ],
+    "read": "32 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-c07-ijepa-2023.js",
+    "seriesOrder": 7
+  },
+  {
+    "slug": "embodied-modern-c08-vjepa-2024",
+    "title": "C08｜V-JEPA：视频中的特征预测，离世界模型还有几步？",
+    "excerpt": "沿原论文图3拆解时空token、EMA教师与注意力探针，区分非因果遮挡、未来预测和动作条件模型，并核对预算与评测视角。",
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "learningCode": "C08",
+    "date": "2026-10-29",
+    "tags": [
+      "零基础学具身智能",
+      "V-JEPA",
+      "视频自监督",
+      "时空表征"
+    ],
+    "read": "35 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-c08-vjepa-2024.js",
+    "seriesOrder": 8
   }
 ];
