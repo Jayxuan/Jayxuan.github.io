@@ -936,7 +936,7 @@ window.BLOG_POSTS = [
     "excerpt": "沿原论文图3拆解后验、先验、RSSM与想象中的actor–critic，再审视跨域结果、消融、计算预算和真实机器人证据边界。",
     "category": "embodied-basics",
     "seriesId": "embodied-main",
-    "seriesOrder": 13,
+    "seriesOrder": 15,
     "learningCode": "W02",
     "date": "2026-10-24",
     "tags": [
@@ -956,7 +956,7 @@ window.BLOG_POSTS = [
     "excerpt": "结合原论文图2精读视频自监督、动作条件后训练与MPC，区分实验事实、局限及可检验的研究假设。",
     "category": "embodied-basics",
     "seriesId": "embodied-main",
-    "seriesOrder": 14,
+    "seriesOrder": 16,
     "learningCode": "W03",
     "date": "2026-10-24",
     "tags": [
@@ -1003,7 +1003,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-a01-imitation.js",
-    "seriesOrder": 9
+    "seriesOrder": 11
   },
   {
     "slug": "embodied-modern-a02-act-diffusion",
@@ -1021,7 +1021,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-a02-act-diffusion.js",
-    "seriesOrder": 10
+    "seriesOrder": 12
   },
   {
     "slug": "embodied-modern-a03-openvla-pi",
@@ -1040,7 +1040,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-a03-openvla-pi.js",
-    "seriesOrder": 11
+    "seriesOrder": 13
   },
   {
     "slug": "embodied-modern-w01-mdp-latents",
@@ -1059,7 +1059,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-w01-mdp-latents.js",
-    "seriesOrder": 12
+    "seriesOrder": 14
   },
   {
     "slug": "embodied-modern-w04-video-world-models",
@@ -1077,7 +1077,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-w04-video-world-models.js",
-    "seriesOrder": 15
+    "seriesOrder": 17
   },
   {
     "slug": "embodied-modern-x01-reproducible-evaluation",
@@ -1095,7 +1095,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-x01-reproducible-evaluation.js",
-    "seriesOrder": 16
+    "seriesOrder": 18
   },
   {
     "slug": "embodied-modern-c03-clip-2021",
@@ -1211,5 +1211,46 @@ window.BLOG_POSTS = [
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-c08-vjepa-2024.js",
     "seriesOrder": 8
+  },
+  {
+    "slug": "embodied-modern-c09-ddpm-2020",
+    "title": "C09｜DDPM：从加噪公式到逐步生成，补齐扩散策略的概率基础",
+    "excerpt": "逐符号推导正向加噪、噪声预测与反向采样，分清训练与推理成本、FID参考集与似然界，并用原论文图读懂累计噪声日程。",
+    "category": "embodied-basics",
+    "date": "2026-10-30",
+    "tags": [
+      "零基础学具身智能",
+      "DDPM",
+      "扩散模型",
+      "概率建模",
+      "生成式策略"
+    ],
+    "read": "30 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-c09-ddpm-2020.js",
+    "seriesId": "embodied-main",
+    "learningCode": "C09",
+    "seriesOrder": 9
+  },
+  {
+    "slug": "embodied-modern-c10-flow-matching-2023",
+    "title": "C10｜Flow Matching：从噪声去除到概率路径与速度场",
+    "excerpt": "用条件路径、速度回归和 ODE 采样理解 Flow Matching，逐符号拆解原公式，区分条件直线与边缘流，并为流式动作策略补齐基础。",
+    "category": "embodied-basics",
+    "date": "2026-10-30",
+    "tags": [
+      "零基础学具身智能",
+      "Flow Matching",
+      "生成模型",
+      "概率路径",
+      "ODE",
+      "动作策略"
+    ],
+    "read": "35 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-c10-flow-matching-2023.js",
+    "seriesId": "embodied-main",
+    "learningCode": "C10",
+    "seriesOrder": 10
   }
 ];
