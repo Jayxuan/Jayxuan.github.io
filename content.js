@@ -936,7 +936,7 @@ window.BLOG_POSTS = [
     "excerpt": "沿原论文图3拆解后验、先验、RSSM与想象中的actor–critic，再审视跨域结果、消融、计算预算和真实机器人证据边界。",
     "category": "embodied-basics",
     "seriesId": "embodied-main",
-    "seriesOrder": 15,
+    "seriesOrder": 17,
     "learningCode": "W02",
     "date": "2026-10-24",
     "tags": [
@@ -956,7 +956,7 @@ window.BLOG_POSTS = [
     "excerpt": "结合原论文图2精读视频自监督、动作条件后训练与MPC，区分实验事实、局限及可检验的研究假设。",
     "category": "embodied-basics",
     "seriesId": "embodied-main",
-    "seriesOrder": 16,
+    "seriesOrder": 18,
     "learningCode": "W03",
     "date": "2026-10-24",
     "tags": [
@@ -1003,7 +1003,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-a01-imitation.js",
-    "seriesOrder": 11
+    "seriesOrder": 13
   },
   {
     "slug": "embodied-modern-a02-act-diffusion",
@@ -1021,7 +1021,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-a02-act-diffusion.js",
-    "seriesOrder": 12
+    "seriesOrder": 14
   },
   {
     "slug": "embodied-modern-a03-openvla-pi",
@@ -1040,7 +1040,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-a03-openvla-pi.js",
-    "seriesOrder": 13
+    "seriesOrder": 15
   },
   {
     "slug": "embodied-modern-w01-mdp-latents",
@@ -1059,7 +1059,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-w01-mdp-latents.js",
-    "seriesOrder": 14
+    "seriesOrder": 16
   },
   {
     "slug": "embodied-modern-w04-video-world-models",
@@ -1077,7 +1077,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-w04-video-world-models.js",
-    "seriesOrder": 17
+    "seriesOrder": 19
   },
   {
     "slug": "embodied-modern-x01-reproducible-evaluation",
@@ -1095,7 +1095,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-x01-reproducible-evaluation.js",
-    "seriesOrder": 18
+    "seriesOrder": 20
   },
   {
     "slug": "embodied-modern-c03-clip-2021",
@@ -1252,5 +1252,46 @@ window.BLOG_POSTS = [
     "seriesId": "embodied-main",
     "learningCode": "C10",
     "seriesOrder": 10
+  },
+  {
+    "slug": "embodied-modern-c11-vae-2013",
+    "title": "C11｜VAE：从近似后验、ELBO到可微的连续潜变量",
+    "excerpt": "逐符号理解生成与推断、两个不同的KL、重参数化与损失归约，并核对原论文实验和潜在世界模型的适用边界。",
+    "category": "embodied-basics",
+    "date": "2026-10-31",
+    "tags": [
+      "零基础学具身智能",
+      "VAE",
+      "潜变量",
+      "ELBO",
+      "重参数化"
+    ],
+    "read": "30 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-c11-vae-2013.js",
+    "seriesId": "embodied-main",
+    "learningCode": "C11",
+    "seriesOrder": 11
+  },
+  {
+    "slug": "embodied-modern-c12-vqvae-2017",
+    "title": "C12｜VQ-VAE：把连续特征变成可生成的离散 token",
+    "excerpt": "从最近邻码本、直通梯度和三项损失出发，区分离散表示与生成先验，核对实验边界，并连接潜在世界模型。",
+    "category": "embodied-basics",
+    "date": "2026-10-31",
+    "tags": [
+      "零基础学具身智能",
+      "VQ-VAE",
+      "离散表示",
+      "码本",
+      "潜变量",
+      "世界模型"
+    ],
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-c12-vqvae-2017.js",
+    "seriesId": "embodied-main",
+    "learningCode": "C12",
+    "seriesOrder": 12
   }
 ];
