@@ -936,7 +936,7 @@ window.BLOG_POSTS = [
     "excerpt": "沿原论文图3拆解后验、先验、RSSM与想象中的actor–critic，再审视跨域结果、消融、计算预算和真实机器人证据边界。",
     "category": "embodied-basics",
     "seriesId": "embodied-main",
-    "seriesOrder": 17,
+    "seriesOrder": 19,
     "learningCode": "W02",
     "date": "2026-10-24",
     "tags": [
@@ -956,7 +956,7 @@ window.BLOG_POSTS = [
     "excerpt": "结合原论文图2精读视频自监督、动作条件后训练与MPC，区分实验事实、局限及可检验的研究假设。",
     "category": "embodied-basics",
     "seriesId": "embodied-main",
-    "seriesOrder": 18,
+    "seriesOrder": 20,
     "learningCode": "W03",
     "date": "2026-10-24",
     "tags": [
@@ -1003,7 +1003,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-a01-imitation.js",
-    "seriesOrder": 13
+    "seriesOrder": 15
   },
   {
     "slug": "embodied-modern-a02-act-diffusion",
@@ -1021,7 +1021,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-a02-act-diffusion.js",
-    "seriesOrder": 14
+    "seriesOrder": 16
   },
   {
     "slug": "embodied-modern-a03-openvla-pi",
@@ -1040,7 +1040,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-a03-openvla-pi.js",
-    "seriesOrder": 15
+    "seriesOrder": 17
   },
   {
     "slug": "embodied-modern-w01-mdp-latents",
@@ -1059,7 +1059,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-w01-mdp-latents.js",
-    "seriesOrder": 16
+    "seriesOrder": 18
   },
   {
     "slug": "embodied-modern-w04-video-world-models",
@@ -1077,7 +1077,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-w04-video-world-models.js",
-    "seriesOrder": 19
+    "seriesOrder": 21
   },
   {
     "slug": "embodied-modern-x01-reproducible-evaluation",
@@ -1095,7 +1095,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-x01-reproducible-evaluation.js",
-    "seriesOrder": 20
+    "seriesOrder": 22
   },
   {
     "slug": "embodied-modern-c03-clip-2021",
@@ -1293,5 +1293,47 @@ window.BLOG_POSTS = [
     "seriesId": "embodied-main",
     "learningCode": "C12",
     "seriesOrder": 12
+  },
+  {
+    "slug": "embodied-modern-c13-videogpt-2021",
+    "title": "C13｜VideoGPT：从离散时空 token 到视频生成",
+    "excerpt": "沿原论文图2拆解视频VQ-VAE与自回归先验，逐步核对维度、条件接口、FVD口径和压缩消融，分清生成画面与闭环控制。",
+    "category": "embodied-basics",
+    "date": "2026-11-01",
+    "tags": [
+      "零基础学具身智能",
+      "VideoGPT",
+      "视频生成",
+      "VQ-VAE",
+      "自回归",
+      "世界模型"
+    ],
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-c13-videogpt-2021.js",
+    "seriesId": "embodied-main",
+    "learningCode": "C13",
+    "seriesOrder": 13
+  },
+  {
+    "slug": "embodied-modern-c14-iris-2023",
+    "title": "C14｜IRIS：让离散视觉 token 变成可以练习决策的世界",
+    "excerpt": "从图像码本、因果动作序列到想象中的 actor–critic，核对 Atari 100k 协议、计算成本与探索瓶颈，区分视频生成和可用世界模型。",
+    "category": "embodied-basics",
+    "date": "2026-11-01",
+    "tags": [
+      "零基础学具身智能",
+      "IRIS",
+      "离散世界模型",
+      "Transformer",
+      "想象学习",
+      "强化学习"
+    ],
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-c14-iris-2023.js",
+    "seriesId": "embodied-main",
+    "learningCode": "C14",
+    "seriesOrder": 14
   }
 ];
