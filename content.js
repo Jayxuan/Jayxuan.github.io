@@ -936,7 +936,7 @@ window.BLOG_POSTS = [
     "excerpt": "沿原论文图3拆解后验、先验、RSSM与想象中的actor–critic，再审视跨域结果、消融、计算预算和真实机器人证据边界。",
     "category": "embodied-basics",
     "seriesId": "embodied-main",
-    "seriesOrder": 19,
+    "seriesOrder": 21,
     "learningCode": "W02",
     "date": "2026-10-24",
     "tags": [
@@ -956,7 +956,7 @@ window.BLOG_POSTS = [
     "excerpt": "结合原论文图2精读视频自监督、动作条件后训练与MPC，区分实验事实、局限及可检验的研究假设。",
     "category": "embodied-basics",
     "seriesId": "embodied-main",
-    "seriesOrder": 20,
+    "seriesOrder": 22,
     "learningCode": "W03",
     "date": "2026-10-24",
     "tags": [
@@ -1003,7 +1003,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-a01-imitation.js",
-    "seriesOrder": 15
+    "seriesOrder": 17
   },
   {
     "slug": "embodied-modern-a02-act-diffusion",
@@ -1021,7 +1021,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-a02-act-diffusion.js",
-    "seriesOrder": 16
+    "seriesOrder": 18
   },
   {
     "slug": "embodied-modern-a03-openvla-pi",
@@ -1040,7 +1040,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-a03-openvla-pi.js",
-    "seriesOrder": 17
+    "seriesOrder": 19
   },
   {
     "slug": "embodied-modern-w01-mdp-latents",
@@ -1059,7 +1059,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-w01-mdp-latents.js",
-    "seriesOrder": 18
+    "seriesOrder": 20
   },
   {
     "slug": "embodied-modern-w04-video-world-models",
@@ -1077,7 +1077,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-w04-video-world-models.js",
-    "seriesOrder": 21
+    "seriesOrder": 23
   },
   {
     "slug": "embodied-modern-x01-reproducible-evaluation",
@@ -1095,7 +1095,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-x01-reproducible-evaluation.js",
-    "seriesOrder": 22
+    "seriesOrder": 24
   },
   {
     "slug": "embodied-modern-c03-clip-2021",
@@ -1335,5 +1335,45 @@ window.BLOG_POSTS = [
     "seriesId": "embodied-main",
     "learningCode": "C14",
     "seriesOrder": 14
+  },
+  {
+    "slug": "embodied-modern-c15-diamond-2024",
+    "title": "C15｜DIAMOND：用扩散细节支撑想象中的决策",
+    "excerpt": "连接 DDPM 与 IRIS，分清环境时间和去噪时间，推导 EDM 预条件化与想象回报，审查 Atari 100k 的细节、预算和失败证据。",
+    "category": "embodied-basics",
+    "date": "2026-11-02",
+    "tags": [
+      "零基础学具身智能",
+      "DIAMOND",
+      "扩散世界模型",
+      "EDM",
+      "想象强化学习"
+    ],
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-c15-diamond-2024.js",
+    "seriesId": "embodied-main",
+    "learningCode": "C15",
+    "seriesOrder": 15
+  },
+  {
+    "slug": "embodied-modern-c16-diffusion-forcing-2024",
+    "title": "C16｜Diffusion Forcing：把序列时间与噪声等级分开",
+    "excerpt": "从每个 token 独立噪声出发，理解因果递推、二维采样日程和蒙特卡洛引导，区分长视频稳定、规划回报与机器人可靠性。",
+    "category": "embodied-basics",
+    "date": "2026-11-02",
+    "tags": [
+      "零基础学具身智能",
+      "Diffusion Forcing",
+      "世界模型",
+      "扩散模型",
+      "序列建模"
+    ],
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-c16-diffusion-forcing-2024.js",
+    "seriesId": "embodied-main",
+    "learningCode": "C16",
+    "seriesOrder": 16
   }
 ];
