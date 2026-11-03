@@ -1095,7 +1095,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-x01-reproducible-evaluation.js",
-    "seriesOrder": 24
+    "seriesOrder": 26
   },
   {
     "slug": "embodied-modern-c03-clip-2021",
@@ -1375,5 +1375,45 @@ window.BLOG_POSTS = [
     "seriesId": "embodied-main",
     "learningCode": "C16",
     "seriesOrder": 16
+  },
+  {
+    "slug": "embodied-modern-w05-tdmpc-2022",
+    "title": "W05｜TD-MPC：用短期模型与长期价值共同规划",
+    "excerpt": "从 PlaNet 的潜空间搜索走向任务导向表示，逐步拆解 TD 目标、潜在一致性、采样规划与终端价值，核对连续控制实验和计算边界。",
+    "learningCode": "W05",
+    "seriesOrder": 24,
+    "tags": [
+      "零基础学具身智能",
+      "TD-MPC",
+      "模型预测控制",
+      "时序差分",
+      "世界模型"
+    ],
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "date": "2026-11-03",
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-w05-tdmpc-2022.js"
+  },
+  {
+    "slug": "embodied-modern-w06-tdmpc2-2024",
+    "title": "W06｜TD-MPC2：让潜空间规划跨任务稳定扩展",
+    "excerpt": "接着 TD-MPC，理解 SimNorm、分类回归、价值集成与最大熵策略，区分固定超参数、多任务训练和未见任务迁移的证据。",
+    "learningCode": "W06",
+    "seriesOrder": 25,
+    "tags": [
+      "零基础学具身智能",
+      "TD-MPC2",
+      "世界模型",
+      "多任务学习",
+      "连续控制"
+    ],
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "date": "2026-11-03",
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-w06-tdmpc2-2024.js"
   }
 ];
