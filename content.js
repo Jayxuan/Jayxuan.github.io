@@ -1095,7 +1095,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-x01-reproducible-evaluation.js",
-    "seriesOrder": 26
+    "seriesOrder": 28
   },
   {
     "slug": "embodied-modern-c03-clip-2021",
@@ -1415,5 +1415,45 @@ window.BLOG_POSTS = [
     "read": "40 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-w06-tdmpc2-2024.js"
+  },
+  {
+    "slug": "embodied-modern-a04-cql-2020",
+    "title": "A04｜CQL：离线数据之外，价值为什么需要保守",
+    "excerpt": "从数据覆盖不足造成的价值高估出发，理解保守Q学习的目标、理论条件、连续动作近似与离线评测边界。",
+    "learningCode": "A04",
+    "seriesOrder": 26,
+    "tags": [
+      "零基础学具身智能",
+      "CQL",
+      "离线强化学习",
+      "保守价值",
+      "数据分布"
+    ],
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "date": "2026-11-04",
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-a04-cql-2020.js"
+  },
+  {
+    "slug": "embodied-modern-a05-iql-2022",
+    "title": "A05｜IQL：只用数据动作，也能学习更好的策略",
+    "excerpt": "接着CQL的数据分布问题，逐步推导expectile价值估计、数据内TD目标与优势加权行为克隆，区分离线学习和在线微调证据。",
+    "learningCode": "A05",
+    "seriesOrder": 27,
+    "tags": [
+      "零基础学具身智能",
+      "IQL",
+      "离线强化学习",
+      "Expectile",
+      "优势加权"
+    ],
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "date": "2026-11-04",
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-a05-iql-2022.js"
   }
 ];
