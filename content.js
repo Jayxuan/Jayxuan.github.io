@@ -1095,7 +1095,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-x01-reproducible-evaluation.js",
-    "seriesOrder": 28
+    "seriesOrder": 30
   },
   {
     "slug": "embodied-modern-c03-clip-2021",
@@ -1455,5 +1455,45 @@ window.BLOG_POSTS = [
     "read": "40 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-a05-iql-2022.js"
+  },
+  {
+    "slug": "embodied-modern-a06-decision-transformer-2021",
+    "title": "A06｜Decision Transformer：把期望回报变成动作生成的条件",
+    "excerpt": "从离线价值学习转向回报条件序列建模，逐步理解因果掩码、轨迹token、监督训练与闭环回报更新，审查泛化和数据覆盖边界。",
+    "learningCode": "A06",
+    "seriesOrder": 28,
+    "tags": [
+      "零基础学具身智能",
+      "Decision Transformer",
+      "离线强化学习",
+      "序列建模",
+      "回报条件"
+    ],
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "date": "2026-11-05",
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-a06-decision-transformer-2021.js"
+  },
+  {
+    "slug": "embodied-modern-a07-trajectory-transformer-2021",
+    "title": "A07｜Trajectory Transformer：生成整条轨迹，再搜索下一步动作",
+    "excerpt": "接着Decision Transformer，学习状态动作标量离散化、自回归轨迹分布和束搜索，区分似然、回报与模型规划的证据。",
+    "learningCode": "A07",
+    "seriesOrder": 29,
+    "tags": [
+      "零基础学具身智能",
+      "Trajectory Transformer",
+      "世界模型",
+      "离线规划",
+      "自回归"
+    ],
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "date": "2026-11-05",
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-a07-trajectory-transformer-2021.js"
   }
 ];

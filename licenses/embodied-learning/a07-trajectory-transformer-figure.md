@@ -1,0 +1,13 @@
+# A07 Trajectory Transformer: original supporting figure provenance
+
+Core paper: Michael Janner, Qiyang Li, Sergey Levine, Offline Reinforcement Learning as One Big Sequence Modeling Problem, NeurIPS 2021. Fixed reading version https://arxiv.org/abs/2106.02039v4 (2021-11-29), PDF https://arxiv.org/pdf/2106.02039v4. arXiv abstract page links http://arxiv.org/licenses/nonexclusive-distrib/1.0/; this is not a general reuse grant. Core Figure 1 is linked only, not reproduced. The code's MIT licence is not treated as permission for paper figures.
+
+Reused related foundation: Danijar Hafner, Timothy Lillicrap, Ian Fischer, Ruben Villegas, David Ha, Honglak Lee, James Davidson. Learning Latent Dynamics for Planning from Pixels. ICML 2019, PMLR 97:2555–2565. Figure 2, PDF page 4.
+Original record: https://proceedings.mlr.press/v97/hafner19a.html
+Fixed proceedings PDF: https://proceedings.mlr.press/v97/hafner19a/hafner19a.pdf
+Licence: CC BY 4.0 https://creativecommons.org/licenses/by/4.0/ based on PMLR publication agreement paragraphs 2–3, https://proceedings.mlr.press/pmlr-license-agreement.html, checked 2026-11-05. Article author citation and link included beside figure. No third-party image credit or contrary exception appears in the original diagram/caption.
+
+Asset: assets/embodied-learning/a07-planet-foundation-fig2.png, 1473×399. Reused previously verified crop of the complete three diagrams, rasterized from proceedings PDF at 3×; surrounding prose and English caption removed, diagram pixels not redrawn or edited. Full original PDF page newly downloaded and viewed, full final crop pixels viewed 2026-11-05. Diagram labels, Figure 2 number and caption matched. Chinese explanation makes explicit that PlaNet's RNN/SSM/RSSM is not the TT architecture; it teaches the directly related action-conditioned dynamics concept. TT Figure 1 linked for the actual core architecture. Responsive dimensions, descriptive alt, author credits, licence/crop disclosure and local full-resolution link are present.
+
+Research evidence: research/tt/v4.pdf and v4.txt; paper.pdf and paper.txt from author's final proceedings PDF; abs.html shows nonexclusive distribution licence; planet.pdf and planet-page4.png; offline.py from official code fixed commit 8834a6ed04ceeab8fdb9465e145c6e041c05d71b. Article distinguishes paper parameters from newer code defaults and distinguishes TT(+Q) AntMaze results from plain TT. No training or model evaluation performed.
+ef9443b0e7ff0c109fe07ad45fc7a63761c200e51ed9a4123521f35101ab9a13  /workspace/shared/daily1105/assets/embodied-learning/a07-planet-foundation-fig2.png
