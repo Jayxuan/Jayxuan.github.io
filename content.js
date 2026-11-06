@@ -1095,7 +1095,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-x01-reproducible-evaluation.js",
-    "seriesOrder": 30
+    "seriesOrder": 32
   },
   {
     "slug": "embodied-modern-c03-clip-2021",
@@ -1495,5 +1495,45 @@ window.BLOG_POSTS = [
     "read": "40 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-a07-trajectory-transformer-2021.js"
+  },
+  {
+    "slug": "embodied-modern-a08-diffuser-2022",
+    "title": "A08｜Diffuser：把整段轨迹去噪成可执行计划",
+    "excerpt": "从自回归轨迹搜索走向扩散规划，理解联合状态动作去噪、奖励引导、端点约束与滚动执行，检查模型误差和采样成本。",
+    "learningCode": "A08",
+    "seriesOrder": 30,
+    "tags": [
+      "零基础学具身智能",
+      "Diffuser",
+      "扩散规划",
+      "离线强化学习",
+      "轨迹生成"
+    ],
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "date": "2026-11-06",
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-a08-diffuser-2022.js"
+  },
+  {
+    "slug": "embodied-modern-a09-decision-diffuser-2023",
+    "title": "A09｜Decision Diffuser：用条件状态生成连接目标与动作",
+    "excerpt": "接着Diffuser，理解回报条件状态扩散、无分类器引导和逆动力学，区分目标组合、数据覆盖与可执行性的证据。",
+    "learningCode": "A09",
+    "seriesOrder": 31,
+    "tags": [
+      "零基础学具身智能",
+      "Decision Diffuser",
+      "条件生成",
+      "离线强化学习",
+      "逆动力学"
+    ],
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "date": "2026-11-06",
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-a09-decision-diffuser-2023.js"
   }
 ];
