@@ -1095,7 +1095,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-x01-reproducible-evaluation.js",
-    "seriesOrder": 32
+    "seriesOrder": 34
   },
   {
     "slug": "embodied-modern-c03-clip-2021",
@@ -1535,5 +1535,45 @@ window.BLOG_POSTS = [
     "read": "40 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-a09-decision-diffuser-2023.js"
+  },
+  {
+    "slug": "embodied-modern-a10-rt1-2022",
+    "title": "A10｜RT-1：把语言、图像和机器人动作连成 token 序列",
+    "excerpt": "从语言条件行为克隆出发，理解视觉压缩、动作离散化与实时闭环，检查大规模机器人数据的泛化边界。",
+    "learningCode": "A10",
+    "seriesOrder": 32,
+    "tags": [
+      "零基础学具身智能",
+      "RT-1",
+      "机器人策略",
+      "动作token",
+      "行为克隆"
+    ],
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "date": "2026-11-07",
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-a10-rt1-2022.js"
+  },
+  {
+    "slug": "embodied-modern-a11-rt2-2023",
+    "title": "A11｜RT-2：视觉语言知识怎样迁移到机器人动作",
+    "excerpt": "沿RT-1的动作token接口，学习视觉语言模型与机器人数据共同微调，区分语义迁移、新技能和可执行性。",
+    "learningCode": "A11",
+    "seriesOrder": 33,
+    "tags": [
+      "零基础学具身智能",
+      "RT-2",
+      "VLA",
+      "视觉语言动作",
+      "知识迁移"
+    ],
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "date": "2026-11-07",
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-a11-rt2-2023.js"
   }
 ];
