@@ -1095,7 +1095,7 @@ window.BLOG_POSTS = [
     "read": "25 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-x01-reproducible-evaluation.js",
-    "seriesOrder": 34
+    "seriesOrder": 36
   },
   {
     "slug": "embodied-modern-c03-clip-2021",
@@ -1575,5 +1575,45 @@ window.BLOG_POSTS = [
     "read": "40 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-a11-rt2-2023.js"
+  },
+  {
+    "slug": "embodied-modern-a12-rtx-2023",
+    "title": "A12｜Open X-Embodiment / RT-X：不同机器人的数据怎样共同训练",
+    "excerpt": "从统一数据格式与动作语义出发，理解跨机器人训练的正迁移、数据混合及评测边界。",
+    "learningCode": "A12",
+    "seriesOrder": 34,
+    "tags": [
+      "零基础学具身智能",
+      "Open X-Embodiment",
+      "RT-X",
+      "跨机器人",
+      "数据混合"
+    ],
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "date": "2026-11-08",
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-a12-rtx-2023.js"
+  },
+  {
+    "slug": "embodied-modern-a13-octo-2024",
+    "title": "A13｜Octo：让通用机器人策略适配新的输入与动作",
+    "excerpt": "沿跨机器人数据走向可适配的通用策略，理解模块化 Transformer、扩散动作头及少量数据微调。",
+    "learningCode": "A13",
+    "seriesOrder": 35,
+    "tags": [
+      "零基础学具身智能",
+      "Octo",
+      "通用机器人策略",
+      "扩散策略",
+      "微调"
+    ],
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "date": "2026-11-08",
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-a13-octo-2024.js"
   }
 ];
