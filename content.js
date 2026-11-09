@@ -1615,5 +1615,45 @@ window.BLOG_POSTS = [
     "read": "40 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-a13-octo-2024.js"
+  },
+  {
+    "slug": "embodied-modern-x02-libero-2023",
+    "title": "X02｜LIBERO：把新任务学习、旧任务遗忘与泛化分开测量",
+    "excerpt": "从可控任务生成与成功率矩阵出发，理解终身学习指标、检查点选择和预算公平，区分模拟成绩与真实能力。",
+    "learningCode": "X02",
+    "seriesOrder": 37,
+    "tags": [
+      "零基础学具身智能",
+      "LIBERO",
+      "机器人评测",
+      "终身学习",
+      "知识迁移"
+    ],
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "date": "2026-11-09",
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-x02-libero-2023.js"
+  },
+  {
+    "slug": "embodied-modern-x03-simpler-2024",
+    "title": "X03｜SIMPLER：仿真分数何时能预测真实机器人表现？",
+    "excerpt": "用控制校准、视觉匹配与 MMRV 精读 SIMPLER，区分策略排序、绝对成功率和真机安全，并设计可证伪的评测有效性实验。",
+    "learningCode": "X03",
+    "seriesOrder": 38,
+    "tags": [
+      "零基础学具身智能",
+      "SIMPLER",
+      "仿真评测",
+      "Sim-to-Real",
+      "机器人策略"
+    ],
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "date": "2026-11-09",
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-x03-simpler-2024.js"
   }
 ];
