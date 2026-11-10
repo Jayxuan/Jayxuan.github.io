@@ -1655,5 +1655,45 @@ window.BLOG_POSTS = [
     "read": "40 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-x03-simpler-2024.js"
+  },
+  {
+    "slug": "embodied-modern-w07-pets-2018",
+    "title": "W07｜PETS：用概率模型与集成分歧规划动作",
+    "excerpt": "区分环境随机性与模型不确定性，理解概率集成、轨迹采样和滚动规划，检查数据效率与计算成本。",
+    "learningCode": "W07",
+    "seriesOrder": 39,
+    "tags": [
+      "零基础学具身智能",
+      "PETS",
+      "模型不确定性",
+      "概率集成",
+      "模型规划"
+    ],
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "date": "2026-11-10",
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-w07-pets-2018.js"
+  },
+  {
+    "slug": "embodied-modern-w08-mbpo-2019",
+    "title": "W08｜MBPO：模型不够准时，为什么短想象仍能帮助策略",
+    "excerpt": "从真实状态出发生成短模型轨迹，逐步拆解误差界、分支采样与策略优化，区分数据效率和模型可信范围。",
+    "learningCode": "W08",
+    "seriesOrder": 40,
+    "tags": [
+      "零基础学具身智能",
+      "MBPO",
+      "模型式强化学习",
+      "短轨迹",
+      "模型偏差"
+    ],
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "date": "2026-11-10",
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-w08-mbpo-2019.js"
   }
 ];
