@@ -1695,5 +1695,45 @@ window.BLOG_POSTS = [
     "read": "40 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-w08-mbpo-2019.js"
+  },
+  {
+    "slug": "embodied-modern-w09-mopo-2020",
+    "title": "W09｜MOPO：用不确定性惩罚约束离线模型优化",
+    "excerpt": "从固定数据学习动力学，用不确定性惩罚减少模型利用，拆解理论下界与实践启发式之间的差别。",
+    "learningCode": "W09",
+    "seriesOrder": 41,
+    "tags": [
+      "零基础学具身智能",
+      "MOPO",
+      "离线强化学习",
+      "模型不确定性",
+      "悲观优化"
+    ],
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "date": "2026-11-11",
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-w09-mopo-2020.js"
+  },
+  {
+    "slug": "embodied-modern-w10-morel-2020",
+    "title": "W10｜MOReL：把未知区域变成悲观模型的边界",
+    "excerpt": "用未知状态检测与吸收状态构造悲观模型，理解离线策略改进的覆盖限制、理论假设和阈值风险。",
+    "learningCode": "W10",
+    "seriesOrder": 42,
+    "tags": [
+      "零基础学具身智能",
+      "MOReL",
+      "离线强化学习",
+      "未知状态",
+      "悲观模型"
+    ],
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "date": "2026-11-11",
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-w10-morel-2020.js"
   }
 ];
