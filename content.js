@@ -1735,5 +1735,45 @@ window.BLOG_POSTS = [
     "read": "40 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-w10-morel-2020.js"
+  },
+  {
+    "slug": "embodied-modern-c17-drq-2021",
+    "title": "C17｜DrQ：用图像增强稳定像素控制的价值学习",
+    "excerpt": "从相同状态的不同图像视图出发，理解随机平移、价值目标平均与数据效率，区分增强不变性和真实泛化。",
+    "learningCode": "C17",
+    "seriesOrder": 43,
+    "tags": [
+      "零基础学具身智能",
+      "DrQ",
+      "视觉强化学习",
+      "数据增强",
+      "价值学习"
+    ],
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "date": "2026-11-12",
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-c17-drq-2021.js"
+  },
+  {
+    "slug": "embodied-modern-c18-drqv2-2022",
+    "title": "C18｜DrQ-v2：把视觉控制的样本效率与训练速度一起优化",
+    "excerpt": "接续 DrQ，拆解确定性策略、多步目标、探索噪声和高效实现，检查相同帧数与相同训练时间下的不同结论。",
+    "learningCode": "C18",
+    "seriesOrder": 44,
+    "tags": [
+      "零基础学具身智能",
+      "DrQ-v2",
+      "视觉控制",
+      "多步回报",
+      "训练效率"
+    ],
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "date": "2026-11-12",
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-c18-drqv2-2022.js"
   }
 ];
