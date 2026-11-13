@@ -1775,5 +1775,45 @@ window.BLOG_POSTS = [
     "read": "40 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-c18-drqv2-2022.js"
+  },
+  {
+    "slug": "embodied-modern-c19-curl-2020",
+    "title": "C19｜CURL：用对比目标学习控制需要的视觉表征",
+    "excerpt": "把同一观察的两种裁剪视为正样本，拆解对比损失、动量编码器与强化学习的联合训练，检查表征质量和控制成绩的区别。",
+    "learningCode": "C19",
+    "seriesOrder": 45,
+    "tags": [
+      "零基础学具身智能",
+      "CURL",
+      "对比学习",
+      "视觉控制",
+      "表征学习"
+    ],
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "date": "2026-11-13",
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-c19-curl-2020.js"
+  },
+  {
+    "slug": "embodied-modern-c20-spr-2021",
+    "title": "C20｜SPR：用动作条件预测学习未来表征",
+    "excerpt": "从当前特征沿动作序列预测未来目标特征，理解潜空间动力学、自预测损失和 Atari 低数据评测的边界。",
+    "learningCode": "C20",
+    "seriesOrder": 46,
+    "tags": [
+      "零基础学具身智能",
+      "SPR",
+      "自预测表征",
+      "潜空间动力学",
+      "视觉强化学习"
+    ],
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "date": "2026-11-13",
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-c20-spr-2021.js"
   }
 ];
