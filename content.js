@@ -1815,5 +1815,45 @@ window.BLOG_POSTS = [
     "read": "40 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-c20-spr-2021.js"
+  },
+  {
+    "slug": "embodied-modern-c21-byol-2020",
+    "title": "C21｜BYOL：没有负样本，怎样学到不坍塌的视觉表征",
+    "excerpt": "沿在线网络、目标网络与预测头拆解自举学习，区分停止梯度、移动平均和避免坍塌的经验证据，连接 SPR 与现代潜空间预测。",
+    "learningCode": "C21",
+    "seriesOrder": 47,
+    "tags": [
+      "零基础学具身智能",
+      "BYOL",
+      "自监督学习",
+      "停止梯度",
+      "视觉表征"
+    ],
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "date": "2026-11-14",
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-c21-byol-2020.js"
+  },
+  {
+    "slug": "embodied-modern-c22-simsiam-2021",
+    "title": "C22｜SimSiam：去掉动量目标后，停止梯度改变了什么",
+    "excerpt": "在 BYOL 基础上阅读简单孪生网络，逐步核对负余弦损失、预测头、停止梯度与消融实验，理解经验有效不等于普适防坍塌证明。",
+    "learningCode": "C22",
+    "seriesOrder": 48,
+    "tags": [
+      "零基础学具身智能",
+      "SimSiam",
+      "自监督学习",
+      "停止梯度",
+      "表征坍塌"
+    ],
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "date": "2026-11-14",
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-c22-simsiam-2021.js"
   }
 ];
