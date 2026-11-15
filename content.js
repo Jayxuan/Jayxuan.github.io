@@ -1855,5 +1855,45 @@ window.BLOG_POSTS = [
     "read": "40 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-c22-simsiam-2021.js"
+  },
+  {
+    "slug": "embodied-modern-c23-barlow-twins-2021",
+    "title": "C23｜Barlow Twins：用交叉相关矩阵减少表征冗余",
+    "excerpt": "从跨视图特征相关矩阵出发，逐步理解对角一致性与非对角去冗余，检查批次、维数和表示坍塌的证据边界。",
+    "learningCode": "C23",
+    "seriesOrder": 49,
+    "tags": [
+      "零基础学具身智能",
+      "Barlow Twins",
+      "自监督学习",
+      "冗余减少",
+      "交叉相关"
+    ],
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "date": "2026-11-15",
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-c23-barlow-twins-2021.js"
+  },
+  {
+    "slug": "embodied-modern-c24-vicreg-2022",
+    "title": "C24｜VICReg：把不变性、方差与协方差分开约束",
+    "excerpt": "接续 Barlow Twins，用三项损失区分样本间变化、跨视图一致和特征去相关，核对消融、批量效应及控制迁移边界。",
+    "learningCode": "C24",
+    "seriesOrder": 50,
+    "tags": [
+      "零基础学具身智能",
+      "VICReg",
+      "自监督学习",
+      "方差",
+      "协方差"
+    ],
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "date": "2026-11-15",
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-c24-vicreg-2022.js"
   }
 ];
