@@ -1895,5 +1895,45 @@ window.BLOG_POSTS = [
     "read": "40 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-c24-vicreg-2022.js"
+  },
+  {
+    "slug": "embodied-modern-c25-vicregl-2022",
+    "title": "C25｜VICRegL：从全局不变性走向局部特征匹配",
+    "excerpt": "接续 VICReg，追踪位置与特征两类匹配、全局与局部目标，核对冻结分割、分类权衡及论文与代码的统计口径。",
+    "learningCode": "C25",
+    "seriesOrder": 51,
+    "tags": [
+      "零基础学具身智能",
+      "VICRegL",
+      "局部表征",
+      "自监督学习",
+      "特征匹配"
+    ],
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "date": "2026-11-16",
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-c25-vicregl-2022.js"
+  },
+  {
+    "slug": "embodied-modern-c26-densecl-2021",
+    "title": "C26｜DenseCL：用局部对应建立密集对比学习",
+    "excerpt": "对照 VICRegL，回看密集对比学习怎样选择正样本、维护负样本队列并迁移到检测和分割，区分匹配相似性与物理对应。",
+    "learningCode": "C26",
+    "seriesOrder": 52,
+    "tags": [
+      "零基础学具身智能",
+      "DenseCL",
+      "对比学习",
+      "密集预测",
+      "视觉表征"
+    ],
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "date": "2026-11-16",
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-c26-densecl-2021.js"
   }
 ];
