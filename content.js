@@ -1935,5 +1935,45 @@ window.BLOG_POSTS = [
     "read": "40 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-c26-densecl-2021.js"
+  },
+  {
+    "slug": "embodied-modern-c27-pixpro-2021",
+    "title": "C27｜PixPro：用像素传播学习局部一致性",
+    "excerpt": "接续 DenseCL，比较负样本区分与像素一致性，理解几何正例、相似度传播和非对称分支，审查密集预测与计算预算。",
+    "learningCode": "C27",
+    "seriesOrder": 53,
+    "tags": [
+      "零基础学具身智能",
+      "PixPro",
+      "像素传播",
+      "局部表征",
+      "自监督学习"
+    ],
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "date": "2026-11-17",
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-c27-pixpro-2021.js"
+  },
+  {
+    "slug": "embodied-modern-c28-detco-2021",
+    "title": "C28｜DetCo：让多层全局与局部表征服务检测",
+    "excerpt": "从像素对应转向多层全局局部目标，拆解三类对比损失和层级权重，用消融区分分类与检测的任务取舍。",
+    "learningCode": "C28",
+    "seriesOrder": 54,
+    "tags": [
+      "零基础学具身智能",
+      "DetCo",
+      "对比学习",
+      "多层监督",
+      "目标检测"
+    ],
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "date": "2026-11-17",
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-c28-detco-2021.js"
   }
 ];
