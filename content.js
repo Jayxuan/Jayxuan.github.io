@@ -1975,5 +1975,45 @@ window.BLOG_POSTS = [
     "read": "40 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-c28-detco-2021.js"
+  },
+  {
+    "slug": "embodied-modern-c29-r3m-2022",
+    "title": "C29｜R3M：从人类视频学习可迁移的机器人视觉",
+    "excerpt": "从时间对比与语言对齐走向冻结视觉表征和少量示范，区分视频预训练、行为克隆与闭环迁移。",
+    "learningCode": "C29",
+    "seriesOrder": 55,
+    "tags": [
+      "零基础学具身智能",
+      "R3M",
+      "视觉表征",
+      "机器人学习",
+      "时间对比"
+    ],
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "date": "2026-11-18",
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-c29-r3m-2022.js"
+  },
+  {
+    "slug": "embodied-modern-c30-vc1-2023",
+    "title": "C30｜VC-1：用统一评测审查视觉基础模型",
+    "excerpt": "从R3M走向MAE预训练ViT与CortexBench，比较数据规模、模型大小、冻结与适配，审查平均排名和任务差异。",
+    "learningCode": "C30",
+    "seriesOrder": 56,
+    "tags": [
+      "零基础学具身智能",
+      "VC-1",
+      "CortexBench",
+      "MAE",
+      "视觉基础模型"
+    ],
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "date": "2026-11-18",
+    "read": "40 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-c30-vc1-2023.js"
   }
 ];
