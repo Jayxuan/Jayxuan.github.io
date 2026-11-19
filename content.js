@@ -2015,5 +2015,45 @@ window.BLOG_POSTS = [
     "read": "40 分钟",
     "contentLanguage": "zh",
     "contentFile": "articles/zh/embodied-modern-c30-vc1-2023.js"
+  },
+  {
+    "slug": "embodied-modern-c31-vip-2023",
+    "title": "C31｜VIP：把视觉距离学成目标条件价值",
+    "excerpt": "从R3M的表征迁移走向目标条件价值与奖励，推导时序残差并区分离线预训练、规划和真实机器人执行。",
+    "learningCode": "C31",
+    "seriesOrder": 57,
+    "tags": [
+      "零基础学具身智能",
+      "VIP",
+      "价值学习",
+      "视觉奖励",
+      "目标条件控制"
+    ],
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "date": "2026-11-19",
+    "read": "45 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-c31-vip-2023.js"
+  },
+  {
+    "slug": "embodied-modern-c32-liv-2023",
+    "title": "C32｜LIV：让语言目标与视觉进度共享价值空间",
+    "excerpt": "接续VIP，引入语言目标与图文对齐，区分预训练、适配、冻结行为克隆与奖励规划，审查语言是否真正控制动作。",
+    "learningCode": "C32",
+    "seriesOrder": 58,
+    "tags": [
+      "零基础学具身智能",
+      "LIV",
+      "多模态价值",
+      "语言条件控制",
+      "视觉奖励"
+    ],
+    "category": "embodied-basics",
+    "seriesId": "embodied-main",
+    "date": "2026-11-19",
+    "read": "45 分钟",
+    "contentLanguage": "zh",
+    "contentFile": "articles/zh/embodied-modern-c32-liv-2023.js"
   }
 ];
